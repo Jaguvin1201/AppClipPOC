@@ -36,7 +36,7 @@ class ViewController: UIViewController {
 
 extension ViewController {
     @IBAction func termsAndConditions() {
-        let controller = SFSafariViewController(url: URL(string: "https://www.online.citibank.co.in/credit-card/terms")!)
+        let controller = SFSafariViewController(url: URL(string: "https://www.citi.com/credit-cards/compare-credit-cards/CMA-PIT")!)
         controller.modalPresentationStyle = .formSheet
         self.present(controller, animated: true, completion: nil)
     }
